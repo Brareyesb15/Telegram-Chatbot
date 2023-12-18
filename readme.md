@@ -92,13 +92,13 @@ Unlink Document
 
 Unlink a document from a specific agent using the /unlink_document agent_id: [agent_id] document_id: [document_id] command.
 
-##Additional Functions
+## Additional Functions
 
-##Decorators
+## Decorators
 
 The bot utilizes Python decorators to handle different commands and message types. Decorators such as @bot.message_handler are applied to functions to specify how they should handle incoming messages. Understanding decorators is crucial for extending or modifying the bot's functionality.
 
-##Document Handling
+## Document Handling
 
 The bot supports handling documents for loading or training. Send a document with the caption 'load' to perform loading or 'train' to perform loading and training.
 
