@@ -61,34 +61,45 @@ streamlit run app.py
    The Telegram bot offers the following main functions:
 
 Chat Completion
+
 To leverage the message completion function, initiate a chat with the bot and start your message with /bot followed by the content you want to complete.
 
 Change Agent
+
 Switch the current agent by using the /change_agent_id command followed by the new agent ID.
 
 Get User Data
+
 Retrieve information associated with your CodeGPT instance using the /get_my_data command.
 
 Get All Agents
+
 Obtain details about all available agents by using the /get_all_agent command.
 
 Get Agent by ID
+
 Retrieve specific agent details by using the /get_agent_by_id [agent_id] command.
 
 Update Agent
+
 Update an agent's information by employing the /update_agent command with the desired parameters.
 
 Link Document
+
 Link a document to a specific agent with the /link_document agent_id: [agent_id] document_id: [document_id] command.
 
 Unlink Document
+
 Unlink a document from a specific agent using the /unlink_document agent_id: [agent_id] document_id: [document_id] command.
 
-Additional Functions
-Decorators
+##Additional Functions
+
+##Decorators
+
 The bot utilizes Python decorators to handle different commands and message types. Decorators such as @bot.message_handler are applied to functions to specify how they should handle incoming messages. Understanding decorators is crucial for extending or modifying the bot's functionality.
 
-Document Handling
+##Document Handling
+
 The bot supports handling documents for loading or training. Send a document with the caption 'load' to perform loading or 'train' to perform loading and training.
 
 Example:
