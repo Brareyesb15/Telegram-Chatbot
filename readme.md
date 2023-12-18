@@ -17,7 +17,7 @@ Create a CodeGPT Plus account: https://account.codegpt.co
 Clone the repository:
 
 ```bash
-git clone %%%%%%%%
+git clone https://github.com/Brareyesb15/Telegram-Chatbot
 ```
 
 ### Install the required libraries:
