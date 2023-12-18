@@ -7,7 +7,7 @@ This repository contains a Telegram bot that interacts with the CodeGPT service 
 Before running the code, make sure you have the following:
 
 - Python 3 installed
-- `streamlit`, `telebot`, `judini`, `re` and `dotenv` libraries installed
+- `streamlit`, `telebot`, `judini` and `dotenv` libraries installed
 - A Telegram API key and CodeGPT API key
 
 Create a CodeGPT Plus account: https://account.codegpt.co

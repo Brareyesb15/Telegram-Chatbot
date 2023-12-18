@@ -2,4 +2,3 @@ streamlit
 telebot
 python-dotenv
 judini
-re
